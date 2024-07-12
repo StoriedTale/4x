@@ -1,0 +1,33 @@
+/* components/ResourcePanel.css */
+.resource-panel {
+  padding: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item.empty {
+  visibility: hidden; /* Hide empty boxes but keep the space */
+}
