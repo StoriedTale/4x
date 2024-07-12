@@ -21,8 +21,64 @@ button {
   cursor: pointer;
   min-width: 200px; /* Fixed width to handle a reasonable number of characters */
   max-width: 200px;
+  text-align: center;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+.structure-details {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #f0f0f0;
+}
+
+.structure-benefits, .structure-costs {
+  margin-top: 5px;
+}
+
+.structure-benefits strong, .structure-costs strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.resource-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the resource container */
+  margin-bottom: 10px; /* Add some space below the resources */
+}
+
+.resource-item {
+  padding: 2px 5px; /* Further reduce padding for smaller height */
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  font-size: 0.9em; /* Reduce font size */
+}
+
+.resource-item input {
+  width: 50px; /* Adjust width of input field */
+  text-align: center; /* Center the input text */
+}
+
+.resource-item span {
+  cursor: pointer;
+}
+
+.resource-item h2 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 1em; /* Reduce font size */
+}
+
+.banner {
+  padding: 10px;
+  background-color: yellow;
+  text-align: center;
+  margin-bottom: 10px;
 }

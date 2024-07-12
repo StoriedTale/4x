@@ -1,0 +1,23 @@
+/* components/GameLog/GameLog.css */
+.game-log {
+  height: 200px; /* Static height */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.log-entry {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.timestamp {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.message {
+  flex-grow: 1;
+}

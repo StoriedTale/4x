@@ -1,4 +1,5 @@
-// components/ResourcePanel.js
+// components/ResourcePanel/ResourcePanel.js
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import './ResourcePanel.css'; // Import the CSS file
